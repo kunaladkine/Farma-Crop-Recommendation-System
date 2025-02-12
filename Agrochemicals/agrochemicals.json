@@ -1,0 +1,110 @@
+[
+   {
+      "img": "./static/organic-fertilizer.jpg",
+      "discount_price": "₹850",
+      "original_price": "₹1200",
+      "product_name": "Organic Fertilizer",
+      "rating": "★★★★☆",
+      "reviews": 18,
+      "description": "A natural fertilizer that enhances soil fertility and plant growth."
+   },
+   {
+      "img": "./static/npk-fertilizer.jpg",
+      "discount_price": "₹1200",
+      "original_price": "₹1600",
+      "product_name": "NPK 20-20-20 Fertilizer",
+      "rating": "★★★★★",
+      "reviews": 22,
+      "description": "Balanced nutrient blend for improved crop yield and plant health."
+   },
+   {
+      "img": "./static/humus-compost.webp",
+      "discount_price": "₹700",
+      "original_price": "₹1100",
+      "product_name": "Humus Compost",
+      "rating": "★★★★☆",
+      "reviews": 15,
+      "description": "Rich in organic matter, ideal for improving soil structure and water retention."
+   },
+   {
+      "img": "./static/micronutrients.webp",
+      "discount_price": "₹600",
+      "original_price": "₹900",
+      "product_name": "Micronutrient Mix",
+      "rating": "★★★☆☆",
+      "reviews": 12,
+      "description": "Essential for plant growth, enhances nutrient absorption."
+   },
+   {
+      "img": "./static/urea.webp",
+      "discount_price": "₹950",
+      "original_price": "₹1400",
+      "product_name": "Urea Fertilizer",
+      "rating": "★★★★☆",
+      "reviews": 17,
+      "description": "High nitrogen content for rapid plant growth and development."
+   },
+   {
+      "img": "./static/phosphorus-fertilizer.jpg",
+      "discount_price": "₹1300",
+      "original_price": "₹1800",
+      "product_name": "Phosphorus Fertilizer",
+      "rating": "★★★★☆",
+      "reviews": 14,
+      "description": "Boosts root development and improves flowering in crops."
+   },
+   {
+      "img": "./static/potassium-fertilizer.webp",
+      "discount_price": "₹1150",
+      "original_price": "₹1550",
+      "product_name": "Potassium Sulfate Fertilizer",
+      "rating": "★★★★★",
+      "reviews": 20,
+      "description": "Improves disease resistance and enhances fruit quality."
+   },
+   {
+      "img": "./static/vegetable-seeds.jpg",
+      "discount_price": "₹500",
+      "original_price": "₹800",
+      "product_name": "Vegetable Seeds Pack",
+      "rating": "★★★★☆",
+      "reviews": 10,
+      "description": "A variety of high-yield vegetable seeds for home and commercial farming."
+   },
+   {
+      "img": "./static/flower-seeds.webp",
+      "discount_price": "₹450",
+      "original_price": "₹700",
+      "product_name": "Flowering Plant Seeds",
+      "rating": "★★★★☆",
+      "reviews": 13,
+      "description": "Premium quality seeds for vibrant and healthy flowers."
+   },
+   {
+      "img": "./static/biostimulant.jpg",
+      "discount_price": "₹950",
+      "original_price": "₹1250",
+      "product_name": "Plant Biostimulant",
+      "rating": "★★★★★",
+      "reviews": 16,
+      "description": "Enhances plant metabolism and stress resistance."
+   },
+   {
+      "img": "./static/herbicide.jpg",
+      "discount_price": "₹1450",
+      "original_price": "₹1900",
+      "product_name": "Selective Herbicide",
+      "rating": "★★★★☆",
+      "reviews": 19,
+      "description": "Effectively controls weeds without harming crops."
+   },
+   {
+      "img": "./static/insecticide.jpg",
+      "discount_price": "₹1600",
+      "original_price": "₹2100",
+      "product_name": "Organic Insecticide",
+      "rating": "★★★★☆",
+      "reviews": 21,
+      "description": "Eco-friendly solution for controlling harmful pests in crops."
+   }
+]

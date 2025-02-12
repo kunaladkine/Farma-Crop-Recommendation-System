@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+/* ============================== Base Style ============================== */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,
+body {
+   width: 100%;
+   height: 100%;
+   overflow-x: hidden;
+   font-family: "Onest", serif;
+}
+
+main {
+   padding: 0 3rem;
+}
+
+section {
+   position: relative;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+li {
+   list-style: none;
+}
+
+/* ============================== Navbar ============================== */
+nav {
+   padding: 1rem 3rem;
+   background-color: #ffffff;
+}
+
+.link {
+   font-size: large;
+   z-index: 10;
+   font-weight: 500;
+}
+
+.link:hover {
+   /* letter-spacing: -0.3px; */
+   margin: 0px;
+   padding: 0px;
+   background-image: url(https://media.giphy.com/media/0W7Lqw9aohHDbLAXMg/giphy.gif?cid=ecf05e47v7kfu9wfd8dmgtcouiuwoj9wiicglrypjkabyyea&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+   /* background-repeat: no-repeat; */
+   background-position: 50% 40%;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+/* ============================== Hero Section ============================== */
+.hero {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.hero p {
+   letter-spacing: -0.3px;
+   margin: 0px;
+   padding: 0px;
+   background-image: url(https://media.giphy.com/media/0W7Lqw9aohHDbLAXMg/giphy.gif?cid=ecf05e47v7kfu9wfd8dmgtcouiuwoj9wiicglrypjkabyyea&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+   /* background-repeat: no-repeat; */
+   background-position: 50% 40%;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.hero img {
+   width: 25%;
+   object-fit: contain;
+}
+
+.hero-img {
+   position: absolute;
+}
+
+.hero-img-1 {
+   bottom: -20%;
+   left: 1%;
+}
+
+.hero-img-2 {
+   bottom: -20%;
+   right: 1%;
+}
+
+/* ============================== Values Section ============================== */
+.value-cnt {
+   padding: 3rem 3rem;
+   background-color: #edf0f5;
+}
+
+.value-card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 0.8rem;
+   border: 1px solid rgba(0, 0, 0, 0.288);
+   border-radius: 1em;
+   padding: 1rem;
+   transition: all ease-in-out 0.3s;
+}
+
+.value-card:hover {
+   background-color: #ffffff;
+   color: black;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.value-card:hover svg {
+   /* color: white; */
+   fill: #000000;
+}
+
+.value-card h3 {
+   font-size: x-large;
+   font-weight: 500;
+}
+.value-card p {
+   font-size: small;
+   font-weight: 300;
+}
+
+/*========================= Service Section =========================*/
+.service-card {
+   display: flex;
+   align-items: end;
+   justify-content: center;
+   width: 100%;
+   height: 25em;
+   border-radius: 1.2em;
+   padding: 0.5em;
+   background-size: cover;
+   background-position: bottom;
+   transition: all ease 0.5s;
+}
+
+.service-card:nth-child(1) {
+   background-image: url(../static/service-card-1.png);
+}
+
+.service-card:nth-child(2) {
+   background-image: url(../static/service-card-2.png);
+}
+
+.service-content {
+   width: 99.99%;
+   border-radius: 1em;
+   padding: 1em 2em;
+   display: flex;
+   gap: 2em;
+   justify-content: space-between;
+   background-color: white;
+   font-weight: 500;
+}
+
+/* ============================== Glimpse Section ============================== */
+.glimpse-text .link {
+   padding: 1px 1em;
+   font-size: 0.9em;
+}
+.glimpse-text .link:hover {
+   background-color: white;
+   border: 2px solid black;
+}
+
+.grid-container {
+   display: grid;
+   gap: 0.8em;
+   grid-template-columns: 1.94fr 0.69fr 1.29fr;
+   grid-template-rows: repeat(3, 12rem);
+}
+
+.grid-item {
+   border-radius: 0.8em;
+   overflow: hidden;
+   background-color: #807166;
+   transition: all ease 0.3s;
+}
+
+.grid-item:hover {
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.grid-item:nth-child(1) {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 1;
+   grid-row-end: 4;
+}
+
+.grid-item:nth-child(2) {
+   grid-column-start: 2;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 2;
+}
+
+.grid-item:nth-child(3) {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 2;
+   grid-row-end: 4;
+}
+
+/*========================= About Page =========================*/
+/*========================= Hero Section =========================*/
+.main_about {
+   padding: 3rem 8rem;
+}
+
+.about,
+.key_features,
+.technologies,
+.mission {
+   border-radius: 0.4rem;
+   padding: 2em;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.main_about h2 {
+   padding-bottom: 1rem;
+}
+
+.key_features,
+.technologies {
+   width: 36rem;
+}
+
+.main_about ul li{
+   padding-bottom: .6rem;
+}
+
+.main_about ul li span{
+   text-decoration: underline;
+}
+
+.about_img {
+   height: 30rem;
+   width: 30rem;
+   overflow: hidden;
+   border-radius: 0.3em;
+}
+
+.about .info {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   width: 40rem;
+}
+
+.mission{
+   width: 73rem;
+}
+
+/*========================= Footer =========================*/
+footer {
+   padding: 6rem 0 1rem;
+}
+.footer-logo .footer-link {
+   letter-spacing: -0.3px;
+   margin: 0px;
+   padding: 0px;
+   background-image: url(https://media.giphy.com/media/0W7Lqw9aohHDbLAXMg/giphy.gif?cid=ecf05e47v7kfu9wfd8dmgtcouiuwoj9wiicglrypjkabyyea&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+   /* background-repeat: no-repeat; */
+   background-position: 50% 40%;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.footer-link:hover {
+   /* letter-spacing: -0.3px; */
+   margin: 0px;
+   padding: 0px;
+   background-image: url(https://media.giphy.com/media/0W7Lqw9aohHDbLAXMg/giphy.gif?cid=ecf05e47v7kfu9wfd8dmgtcouiuwoj9wiicglrypjkabyyea&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+   /* background-repeat: no-repeat; */
+   background-position: 50% 40%;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.social-icon {
+   width: 1.5em;
+}

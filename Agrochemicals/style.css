@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+/* ============================== Variable CSS ============================== */
+:root {
+   /*========== Colors ==========*/
+   /*Color mode HSL(hue, saturation, lightness)*/
+   --first-color: hsl(82, 60%, 28%);
+   --title-color: hsl(0, 0%, 15%);
+   --text-color: hsl(0, 0%, 35%);
+   --body-color: hsl(0, 0%, 95%);
+   --container-color: hsl(0, 0%, 100%);
+
+   /*========== Font and typography ==========*/
+   /*.5rem = 8px | 1rem = 16px ...*/
+   --h2-font-size: 1.25rem;
+   --small-font-size: 0.813rem;
+}
+
+/* ============================== Base Style ============================== */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,
+body {
+   width: 100%;
+   height: 100%;
+   overflow-x: hidden;
+   font-family: "Onest", serif;
+}
+
+section {
+   position: relative;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+li {
+   list-style: none;
+}
+
+/* ============================== Navbar ============================== */
+nav {
+   padding: 1rem 3rem;
+   background-color: #ffffff;
+}
+
+.link {
+   font-size: large;
+   z-index: 10;
+   font-weight: 500;
+}
+
+.link:hover {
+   /* letter-spacing: -0.3px; */
+   margin: 0px;
+   padding: 0px;
+   background-image: url(https://media.giphy.com/media/0W7Lqw9aohHDbLAXMg/giphy.gif?cid=ecf05e47v7kfu9wfd8dmgtcouiuwoj9wiicglrypjkabyyea&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+   /* background-repeat: no-repeat; */
+   background-position: 50% 40%;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+/* ============================== Hero Section ============================== */
+
+/* ============================== Product Section ============================== */
+.container {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   gap: 4rem;
+   justify-content: center;
+   align-items: center;
+   background-color: #edf0f5;
+   padding: 6rem;
+}
+
+.product_container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 4em;
+}
+
+.product_article {
+   position: relative;
+   overflow: hidden;
+}
+
+.product_img {
+   width: 280px;
+   border-radius: 0.6rem;
+}
+
+.product_data {
+   width: 230px;
+   background-color: var(--container-color);
+   padding: 1rem;
+   box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
+   border-radius: 0.6rem;
+   position: absolute;
+   bottom: -9rem;
+   left: 0;
+   right: 0;
+   margin-inline: auto;
+   opacity: 0;
+   transition: opacity 1s 1s;
+}
+
+.product_title {
+   font-size: var(--h2-font-size);
+   font-weight: 500;
+   color: var(--title-color);
+}
+
+.product_description {
+   display: block;
+   font-size: var(--small-font-size);
+   padding-bottom: 1rem;
+}
+
+.buy_button {
+   flex: 1;
+   border: 1px solid black;
+   border-radius: 1em;
+   padding: 0.3em 0;
+}
+
+.cart_button {
+   border: 1px solid black;
+   border-radius: 1em;
+   width: 1.5em;
+}
+
+/* Naming animations in hover */
+.product_article:hover .product_data {
+   animation: show-data 1s forwards;
+   opacity: 1;
+   transition: opacity 0.3s;
+}
+
+.product_article:hover {
+   animation: remove-overflow 2s forwards;
+}
+
+.product_article:not(:hover) {
+   animation: show-overflow 2s forwards;
+}
+
+.product_article:not(:hover) .product_data {
+   animation: remove-data 1s forwards;
+}
+
+/* Card animation */
+@keyframes show-data {
+   50% {
+      transform: translateY(-10rem);
+   }
+   100% {
+      transform: translateY(-7rem);
+   }
+}
+
+@keyframes remove-overflow {
+   to {
+      overflow: initial;
+   }
+}
+
+@keyframes remove-data {
+   0% {
+      transform: translateY(-7rem);
+   }
+   50% {
+      transform: translateY(-10rem);
+   }
+   100% {
+      transform: translateY(0.5rem);
+   }
+}
+
+@keyframes show-overflow {
+   0% {
+      overflow: initial;
+      pointer-events: none;
+   }
+   50% {
+      overflow: hidden;
+   }
+}
+
+.more_btn {
+   border: 1px solid black;
+   border-radius: 2em;
+   padding: 0.6em 1em;
+   cursor: pointer;
+   box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
+}
+
+/*========================= Footer =========================*/
+footer {
+   padding: 6rem 0 1rem;
+}
+.footer-logo .footer-link {
+   letter-spacing: -0.3px;
+   margin: 0px;
+   padding: 0px;
+   background-image: url(https://media.giphy.com/media/0W7Lqw9aohHDbLAXMg/giphy.gif?cid=ecf05e47v7kfu9wfd8dmgtcouiuwoj9wiicglrypjkabyyea&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+   /* background-repeat: no-repeat; */
+   background-position: 50% 40%;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.footer-link:hover {
+   /* letter-spacing: -0.3px; */
+   margin: 0px;
+   padding: 0px;
+   background-image: url(https://media.giphy.com/media/0W7Lqw9aohHDbLAXMg/giphy.gif?cid=ecf05e47v7kfu9wfd8dmgtcouiuwoj9wiicglrypjkabyyea&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+   /* background-repeat: no-repeat; */
+   background-position: 50% 40%;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.social-icon {
+   width: 1.5em;
+}

@@ -1,0 +1,110 @@
+[
+   {
+      "img": "./static/plow.jpg",
+      "discount_price": "₹1200",
+      "original_price": "₹1800",
+      "product_name": "Heavy-Duty Plow",
+      "rating": "★★★☆☆",
+      "reviews": 16,
+      "description": "Designed for deep soil tillage."
+   },
+   {
+      "img": "./static/irrigation-sprinkler.jpg",
+      "discount_price": "₹850",
+      "original_price": "₹1300",
+      "product_name": "Automatic Irrigation Sprinkler",
+      "rating": "★★★★☆",
+      "reviews": 10,
+      "description": "Ensures optimal water distribution for crops."
+   },
+   {
+      "img": "./static/seed-drill.webp",
+      "discount_price": "₹2500",
+      "original_price": "₹3200",
+      "product_name": "Precision Seed Drill",
+      "rating": "★★★★☆",
+      "reviews": 12,
+      "description": "Helps plant seeds at precise depths and spacing."
+   },
+   {
+      "img": "./static/rotavator.jpg",
+      "discount_price": "₹5200",
+      "original_price": "₹7000",
+      "product_name": "Multi-Purpose Rotavator",
+      "rating": "★★★★★",
+      "reviews": 20,
+      "description": "Used for soil preparation and weed control."
+   },
+   {
+      "img": "./static/thresher.jpg",
+      "discount_price": "₹15000",
+      "original_price": "₹18000",
+      "product_name": "Grain Thresher Machine",
+      "rating": "★★★★☆",
+      "reviews": 18,
+      "description": "Efficiently separates grains from stalks and husks."
+   },
+   {
+      "img": "./static/cultivator.jpg",
+      "discount_price": "₹4800",
+      "original_price": "₹6200",
+      "product_name": "Heavy-Duty Cultivator",
+      "rating": "★★★☆☆",
+      "reviews": 14,
+      "description": "Used for soil aeration and weed removal."
+   },
+   {
+      "img": "./static/hay-baler.jpg",
+      "discount_price": "₹22000",
+      "original_price": "₹28000",
+      "product_name": "Round Hay Baler",
+      "rating": "★★★★☆",
+      "reviews": 9,
+      "description": "Compresses and packs hay into bales for storage."
+   },
+   {
+      "img": "./static/sprayer.jpg",
+      "discount_price": "₹3000",
+      "original_price": "₹4200",
+      "product_name": "Knapsack Power Sprayer",
+      "rating": "★★★★☆",
+      "reviews": 15,
+      "description": "Ideal for pesticide and fertilizer application."
+   },
+   {
+      "img": "./static/harvester.jpg",
+      "discount_price": "₹400000",
+      "original_price": "₹450000",
+      "product_name": "Combine Harvester",
+      "rating": "★★★★★",
+      "reviews": 22,
+      "description": "Harvests and threshes crops in one operation."
+   },
+   {
+      "img": "./static/weeder.jpg",
+      "discount_price": "₹1800",
+      "original_price": "₹2500",
+      "product_name": "Handheld Weeder",
+      "rating": "★★★☆☆",
+      "reviews": 11,
+      "description": "Efficient tool for removing weeds from soil."
+   },
+   {
+      "img": "./static/fertilizer-spreader.jpg",
+      "discount_price": "₹7200",
+      "original_price": "₹9500",
+      "product_name": "Fertilizer Spreader",
+      "rating": "★★★★☆",
+      "reviews": 13,
+      "description": "Ensures even distribution of fertilizers across the field."
+   },
+   {
+      "img": "./static/mini-tractor.jpg",
+      "discount_price": "₹320000",
+      "original_price": "₹360000",
+      "product_name": "Compact Mini Tractor",
+      "rating": "★★★★★",
+      "reviews": 25,
+      "description": "Ideal for small to medium-sized farms with multiple attachments."
+   }
+]
